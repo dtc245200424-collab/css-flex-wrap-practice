@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thực hành CSS flex-wrap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>1. flex-wrap: nowrap (Mặc định - Không xuống dòng)</h2>
+    <div class="container nowrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+
+    <hr />
+
+    <h2>2. flex-wrap: wrap (Xuống dòng khi thiếu không gian)</h2>
+    <div class="container wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+
+    <hr />
+
+    <h2>3. flex-wrap: wrap-reverse (Xuống dòng theo hướng ngược lại)</h2>
+    <div class="container wrap-reverse">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+
+    <hr />
+
+    <h2>4. flex-wrap: initial (Khôi phục giá trị mặc định: nowrap)</h2>
+    <div class="container initial">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+  </body>
+</html>
